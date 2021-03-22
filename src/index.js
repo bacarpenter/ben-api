@@ -2,15 +2,18 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT;
 
-payload = {
+info = {
   first: "Ben",
   last: "Carpenter",
-  contact: [4138341510, "bacarpenter04@gmail.com"],
+  contact: {
+    cell: 4138341510,
+    email: "bacarpenter04@gmail.com",
+  },
   pronouns: ["he", "him", "his"],
 };
 
 app.get("/", (req, res) => {
-  res.send(payload);
+  res.send(info);
 });
 
 app.listen(port, () => {
