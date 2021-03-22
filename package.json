@@ -8,8 +8,11 @@
     "start": "node src/index.js"
   },
   "author": "Ben Carpenter",
-  "license": "MIT",
+  "license": "None",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
