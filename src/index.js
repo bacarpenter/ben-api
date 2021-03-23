@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const port = process.env.PORT;
 
 info = {
@@ -12,10 +13,10 @@ info = {
   pronouns: ["he", "him", "his"],
 };
 
-app.get("/", (req, res) => {
+app.get("/", cors(), (req, res) => {
   res.send(info);
 });
 
 app.listen(port, () => {
-  console.log("ben-api listening at https://benc-api.herokuapp.com/");
+  console.log(`ben-api listening at https://benc-api.herokuapp.com:${port}`);
 });
