@@ -2,10 +2,10 @@
   "name": "ben-api",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "node src/index.js",
-    "start": "node src/index.js"
+    "test": "node src/server.js",
+    "start": "node src/server.js"
   },
   "author": "Ben Carpenter",
   "license": "None",
