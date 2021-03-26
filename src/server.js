@@ -11,6 +11,8 @@ info = {
     email: "bacarpenter04@gmail.com",
   },
   pronouns: ["he", "him", "his"],
+  webpage: "https://bcarpenter.tech",
+  gitHub: "https://github.com/bacarpenter",
 };
 
 app.get("/", cors(), (req, res) => {
