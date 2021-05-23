@@ -11,7 +11,7 @@ info = {
     email: "bacarpenter04@gmail.com",
   },
   pronouns: ["he", "him", "his"],
-  webpage: "https://bcarpenter.tech",
+  webpage: "https://benc.app",
   gitHub: "https://github.com/bacarpenter",
 };
 
